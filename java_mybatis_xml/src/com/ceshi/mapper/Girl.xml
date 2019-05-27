@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ceshi.mapper">
+    <!--if  判断传了这个字段就是模糊查询-->
+    <select id="listGirls" resultType="Girl">
+        select * from girl
+        <if test="name!=null">
+            where name like concat('%', #{name}, '%')
+        </if>
+    </select>
+
+    <!--多条件查询， 有条件不存在时， 可以使用where-->
+    <select id="listGirls2" resultType="Girl">
+        select * from girl
+        <where>
+            <if test="name!=null">
+                and name like concat('%', #{name}, '%')
+            </if>
+            <if test="pid!=null and pid!=0">
+                and pid > #{pid}
+            </if>
+        </where>
+    </select>
+
+    <!--更新时， 有值才会更新， 没有值就更新-->
+    <update id="updateGirl" parameterType="Girl">
+        update girl
+        <set>
+            <if test="name!=null">name = #{name},</if>
+            <if test="pid!=null">pid = #{pid}</if>
+        </set>
+        where id = #{id}
+    </update>
+
+
+    <!--
+    choose 提供任何条件就按条件， 否则就是id > 1这个条件
+    <select id="listProduct" resultType="Product">
+        SELECT * FROM product_
+        <where>
+            <choose>
+                <when test="name != null">
+                    and name like concat('%',#{name},'%')
+                </when>
+                <when test="price !=null and price != 0">
+                    and price > #{price}
+                </when>
+                <otherwise>
+                    and id >1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    -->
+
+    <!--foreach 根据列表查找-->
+    <select id="listGirls3" resultType="Girl">
+        select * from girl where ID in
+        <foreach item="item" index="index" collection="list" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+</mapper>

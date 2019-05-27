@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ceshi.mapper">
+    <!--一对多连表查询的结果对应-->
+    <resultMap type="Person" id="personBean">
+        <!--取别名需要对应别名和实体的属性-->
+        <id column="id" property="id"></id>
+        <result column="pname" property="name"></result>
+        <result column="age" property="age"></result>
+        <!--一对多的关系-->
+        <!--属性是girls， ofType指的是集合的类型是Girl-->
+        <collection property="girls" ofType="Girl">
+            <id column="gid" property="id"></id>
+            <result column="gname" property="name"></result>
+        </collection>
+    </resultMap>
+    <!--通过resultMap指定结果类型-->
+    <select id="listPersonAndGirls" resultMap="personBean">
+        select p.*, g.*, g.id 'gid', p.name 'pname', g.name 'gname' from person p left join girl g on p.id = g.pid
+    </select>
+    <insert id="addPerson" parameterType="Person">
+        insert into person (name, age, sex) values (#{name}, #{age}, #{sex})
+    </insert>
+
+    <delete id="deletePerson" parameterType="Person">
+        delete from person where id = #{id}
+    </delete>
+
+    <update id="updatePerson" parameterType="Person">
+        update person set name=#{name}, age=#{age}, sex=#{sex} where id=#{id}
+    </update>
+
+    <select id="getPerson" parameterType="_int" resultType="Person">
+        select id,name,age,sex from person where id=#{id}
+    </select>
+
+    <select id="listPerson" resultType="Person">
+        select * from person
+    </select>
+
+    <!--模糊查询-->
+    <select id="queryPersonByName" parameterType="string" resultType="Person">
+      select * from person where name like concat('%',#{0},'%')
+    </select>
+
+    <!--多条件查询-->
+    <select id="queryPersonByNameAndId" parameterType="map" resultType="Person">
+      select * from person where name like concat('%',#{name},'%') and id > #{id}
+    </select>
+
+</mapper>

@@ -36,7 +36,7 @@ public class TestMybatis {
 //        tm.listPersonAndGirls();
 //        tm.listAll();
 
-//        tm.listGirls();\
+//        tm.listGirls();
 //        tm.updateGirl();
 //        tm.listGirls2();
         tm.listGirls3();

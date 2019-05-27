@@ -5,11 +5,11 @@ import charactor.Hero;
 import java.util.*;
 
 public class TestCollection {
-    public String get4Random(){
+   /* public String get4Random(){
         for (int i = 0; i < 4; i++) {
 
         }
-    }
+    }*/
     public static void main(String[] args) {
        /* ArrayList heros = new ArrayList();
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xdyuan.springboot.mapper.PersonMapper">
+    <select id="findAll" resultType="Person">
+        select * from person
+    </select>
+    <select id="findById" parameterType="_int" resultType="Person">
+        select * from person where id=#{id}
+    </select>
+
+    <update id="updatePerson" parameterType="Person">
+      update person set name=#{name}, age=#{age}, sex=#{sex} where id=#{id}
+    </update>
+
+    <delete id="deletePerson" parameterType="_int">
+        delete from person where id = #{id}
+    </delete>
+
+    <insert id="savePerson" parameterType="Person">
+        insert into person (name, age, sex) values (#{name}, #{age}, #{sex})
+    </insert>
+</mapper>

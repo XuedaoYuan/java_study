@@ -7,4 +7,25 @@
     <select id="getCategoryList" resultType="Category">
         select * from category
     </select>
+
+    <select id="getCategoryById" resultType="Category" parameterType="_int">
+        select * from category where id = #{id}
+    </select>
+
+    <insert id="addCategory" useGeneratedKeys="true" keyProperty="id" parameterType="Category">
+        insert into category (name) values (#{name})
+    </insert>
+
+    <delete id="deleteCategory" parameterType="_int">
+        delete from category where id = #{id}
+    </delete>
+
+    <update id="updateCategory" parameterType="Category">
+        update category
+        <set>
+            <if test="name!=null">name = #{name},</if>
+            <if test="imageUrl!=null">imageUrl = #{imageUrl}</if>
+        </set>
+        where id = #{id}
+    </update>
 </mapper>

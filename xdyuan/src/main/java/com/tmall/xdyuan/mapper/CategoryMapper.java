@@ -8,4 +8,12 @@ import java.util.List;
 @Mapper
 public interface CategoryMapper {
     public List<Category> getCategoryList();
+
+    public Category getCategoryById(int id);
+
+    public void addCategory(Category category);
+
+    public void deleteCategory(int id);
+
+    public void updateCategory(Category category);
 }

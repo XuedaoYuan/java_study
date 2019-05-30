@@ -13,7 +13,7 @@
     </select>
 
     <insert id="addCategory" useGeneratedKeys="true" keyProperty="id" parameterType="Category">
-        insert into category (name) values (#{name})
+        insert into category (name, imageUrl) values (#{name}, #{imageUrl})
     </insert>
 
     <delete id="deleteCategory" parameterType="_int">

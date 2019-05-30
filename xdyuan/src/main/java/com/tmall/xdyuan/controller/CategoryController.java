@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 
 @RestController
-public class CategoryContaoller {
+public class CategoryController {
     @Autowired
     CategoryMapper categoryMapper;
 
@@ -23,7 +23,7 @@ public class CategoryContaoller {
             @RequestParam(value = "index", defaultValue = "1") int index,
             @RequestParam(value = "pageSize", defaultValue = "5") int pageSize
     ) throws Exception {
-        PageHelper.startPage(index, pageSize, "id asc");
+        PageHelper.startPage(index, pageSize, "id desc");
         List<Category> cs = categoryMapper.getCategoryList();
         PageInfo<Category> page = new PageInfo<>(cs);
         HashMap<String, Object> result = new HashMap<>();

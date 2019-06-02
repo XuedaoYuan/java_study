@@ -21,4 +21,11 @@
         insert into product (name, subTitle, originalPrice, promotePrice, stock, cid, createDate) VALUES (#{name},#{subTitle},#{originalPrice},#{promotePrice},#{stock},#{cid},#{createDate, jdbcType=TIMESTAMP})
     </insert>
 
+    <update id="updateProduct" parameterType="Product">
+        update product set name=#{name},subTitle=#{subTitle},originalPrice=#{originalPrice},promotePrice=#{promotePrice},stock=#{stock} WHERE id = #{id}
+    </update>
+
+    <delete id="deleteProduct" parameterType="_int">
+        delete from product where id = #{id}
+    </delete>
 </mapper>

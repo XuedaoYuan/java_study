@@ -35,4 +35,16 @@ public class ProductController {
         return ResultUtil.success(ts);
     }
 
+    @PutMapping("/product")
+    public Msg updateProduct(@RequestBody Product product) throws Exception {
+        productMapper.updateProduct(product);
+        return ResultUtil.success();
+    }
+
+    @DeleteMapping("/product")
+    public Msg deleteProduct(@RequestParam int id) throws Exception {
+        productMapper.deleteProduct(id);
+        return ResultUtil.success("删除成功");
+    }
+
 }

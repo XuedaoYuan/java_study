@@ -22,6 +22,12 @@ public class ResultUtil {
         msg.setSuccess(true);
         return msg;
     }
+    public static Msg success(String message){
+        Msg msg = new Msg();
+        msg.setMessage(message);
+        msg.setSuccess(true);
+        return msg;
+    }
     public static Msg error(String message){
         Msg msg = new Msg();
         msg.setMessage(message);

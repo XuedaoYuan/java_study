@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.tmall.xdyuan.mapper.CategoryMapper;
+import com.tmall.xdyuan.mapper.ProductMapper;
+import com.tmall.xdyuan.mapper.PropertyMapper;
 import com.tmall.xdyuan.pojo.Category;
 import com.tmall.xdyuan.utils.Msg;
 import com.tmall.xdyuan.utils.ResultUtil;
@@ -17,6 +19,12 @@ import java.util.List;
 public class CategoryController {
     @Autowired
     CategoryMapper categoryMapper;
+
+    @Autowired
+    ProductMapper productMapper;
+
+    @Autowired
+    PropertyMapper propertyMapper;
 
     @GetMapping("/category-list")
     public Msg getCategoryList(
@@ -49,9 +57,11 @@ public class CategoryController {
 
     @DeleteMapping("/category")
     public Msg deleteCategory(@RequestParam int id) throws Exception {
-        if(id == 0){
+        if (id == 0) {
             return ResultUtil.error("必须传参数id");
         }
+        productMapper.deleteProductsByCid(id);
+        propertyMapper.deletePropertyByCid(id);
         categoryMapper.deleteCategory(id);
         return ResultUtil.success();
     }
@@ -59,9 +69,10 @@ public class CategoryController {
     @PutMapping("/category")
     public Msg updateCategory(@RequestBody Category category) throws Exception {
         int id = category.getId();
-        if(id == 0){
+        if (id == 0) {
             return ResultUtil.error("必须传id");
         }
+
         categoryMapper.updateCategory(category);
         return ResultUtil.success();
     }

@@ -22,4 +22,10 @@
     <delete id="deleteProperty" parameterType="_int">
         delete from property where id = #{id}
     </delete>
+
+    <delete id="deletePropertyByCid" parameterType="_int">
+        delete from property where cid = #{cid}
+    </delete>
+
+
 </mapper>

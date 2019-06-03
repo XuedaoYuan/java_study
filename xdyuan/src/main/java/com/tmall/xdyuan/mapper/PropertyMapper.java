@@ -18,4 +18,6 @@ public interface PropertyMapper {
     public void updateProperty(Property property);
 
     public void deleteProperty(int id);
+
+    public void deletePropertyByCid(int cid);
 }

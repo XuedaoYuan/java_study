@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tmall.xdyuan.mapper.PropertyValueMapper">
+
+    <select id="getPvListByPid" parameterType="_int" resultType="PropertyValue">
+        select * from propertyvalue where pid = #{pid}
+    </select>
+
+    <select id="getPvByPidAndPtid" parameterType="java.util.Map" resultType="PropertyValue">
+        select * from propertyvalue where pid = #{pid} and ptid = #{ptid}
+    </select>
+
+    <insert id="insertPropertyValue" parameterType="PropertyValue">
+        insert into propertyvalue (pid, ptid, value) values (#{pid}, #{ptid}, #{value})
+    </insert>
+
+    <update id="updatePropertyValue" parameterType="PropertyValue">
+        update propertyvalue set value = #{value} where id = #{id}
+    </update>
+</mapper>

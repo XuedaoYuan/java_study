@@ -28,4 +28,8 @@
     <delete id="deleteProduct" parameterType="_int">
         delete from product where id = #{id}
     </delete>
+
+    <delete id="deleteProductsByCid" parameterType="_int">
+        delete from product where cid = #{cid}
+    </delete>
 </mapper>

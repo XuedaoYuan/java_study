@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="443c1181-ee00-4a08-8ebd-688c1081b36b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo1/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo1/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo1/MyInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo2/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo2/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo2/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo3/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo3/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Demo3/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0604/_0605/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0610/Demo1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0610/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/Demo2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/Demo3Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/Demo4Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/MyInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/MyInterfaceImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611_file/DemoMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611_file/DemoMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611_file/DemoMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0611_file/FileFilterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0612/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0612/DemoMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0612/DemoMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuanzhi0612/DemoMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuanzhi0614/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuanzhi0614/DemoMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuanzhi0614/test/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study_05_06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_study_05_06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_study_05_06/chuanzhi0612/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_study_05_06/chuanzhi0612/b.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,26 +28,26 @@
     <session id="-1931986154">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15912" />
+          <entry key="java" value="16556" />
           <entry key="js" value="31" />
           <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15912" />
+          <entry key="JAVA" value="16556" />
           <entry key="JavaScript" value="31" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
@@ -86,17 +55,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="101" />
+          <entry key="java" value="107" />
           <entry key="js" value="2" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="101" />
+          <entry key="JAVA" value="107" />
           <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -104,58 +73,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain.java">
+        <entry file="file://$PROJECT_DIR$/src/chuanzhi0614/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="12" column="130" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="130" />
+            <state relative-caret-position="38">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="140" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="140" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#82#83#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain4.java">
+        <entry file="file://$PROJECT_DIR$/src/chuanzhi0614/test/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/b.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -191,10 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/xiancheng/Tongbu.java" />
-        <option value="$PROJECT_DIR$/src/xiancheng/Hero.java" />
-        <option value="$PROJECT_DIR$/src/xiancheng/TestThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/database/TestJDBC.java" />
         <option value="$PROJECT_DIR$/src/database/PreparedStatement_.java" />
         <option value="$PROJECT_DIR$/src/database/MetaData.java" />
         <option value="$PROJECT_DIR$/a.txt" />
@@ -242,6 +179,10 @@
         <option value="$PROJECT_DIR$/src/chuanzhi0612/DemoMain3.java" />
         <option value="$PROJECT_DIR$/src/chuanzhi0612/b.txt" />
         <option value="$PROJECT_DIR$/src/chuanzhi0612/DemoMain4.java" />
+        <option value="$PROJECT_DIR$/src/chuanzhi0614/DemoMain1.java" />
+        <option value="$PROJECT_DIR$/src/chuanzhi0614/b.txt" />
+        <option value="$PROJECT_DIR$/src/chuanzhi0614/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/chuanzhi0614/test/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -264,6 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,19 +230,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chuanzhi0612" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_study_05_06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_study_05_06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chuanzhi0614" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560327092055" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560499384972" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -322,13 +272,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMain4">
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuanzhi0612.DemoMain" />
+  <component name="RunManager" selected="JUnit.CalculatorTest.testAdd">
+    <configuration name="DemoMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuanzhi0614.DemoMain1" />
       <module name="java_study_05_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chuanzhi0612.*" />
+          <option name="PATTERN" value="chuanzhi0614.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,19 +312,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuanzhi0611_file.DemoMain3" />
-      <module name="java_study_05_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chuanzhi0611_file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chuanzhi0612.DemoMain4" />
       <module name="java_study_05_06" />
@@ -388,20 +325,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_study_05_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chuanzhi0614.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chuanzhi0614.test" />
+      <option name="MAIN_CLASS_NAME" value="chuanzhi0614.test.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DemoMain3" />
-      <item itemvalue="Application.DemoMain" />
       <item itemvalue="Application.DemoMain2 (1)" />
       <item itemvalue="Application.DemoMain3 (1)" />
       <item itemvalue="Application.DemoMain4" />
+      <item itemvalue="Application.DemoMain1" />
+      <item itemvalue="JUnit.CalculatorTest.testAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.testAdd" />
+        <item itemvalue="Application.DemoMain1" />
         <item itemvalue="Application.DemoMain4" />
         <item itemvalue="Application.DemoMain3 (1)" />
         <item itemvalue="Application.DemoMain2 (1)" />
-        <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.DemoMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -422,18 +375,37 @@
       <workItem from="1557985300363" duration="4882000" />
       <workItem from="1559614881998" duration="11314000" />
       <workItem from="1560154210719" duration="2486000" />
-      <workItem from="1560233232210" duration="13776000" />
+      <workItem from="1560233232210" duration="14975000" />
+      <workItem from="1560495896085" duration="2045000" />
+      <workItem from="1560498720387" duration="661000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CalculatorTest_testAdd - 2019.06.14 at 15h 53m 16s.xml">
+      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testAdd - 2019.06.14 at 15h 54m 57s.xml">
+      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testAdd - 2019.06.14 at 15h 55m 15s.xml">
+      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testAdd - 2019.06.14 at 15h 57m 43s.xml">
+      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testAdd - 2019.06.14 at 16h 01m 53s.xml">
+      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72367000" />
+    <option name="totallyTimeSpent" value="76272000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.1788269" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.18311875" />
       <window_info id="Structure" order="1" sideWeight="0.5018182" side_tool="true" weight="0.21101573" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,7 +414,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36314362" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23170732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25609756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,34 +444,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/database/MetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/TestJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="46" selection-start-line="14" selection-start-column="16" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/database/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -533,9 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,10 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,10 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,10 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,9 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,19 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="12" column="130" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="130" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,26 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1024">
           <caret line="99" column="27" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="140" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="140" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,6 +810,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="130" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="140" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="140" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/b.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -927,12 +837,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain4.java">
+    <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="311">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chuanzhi0612/DemoMain4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chuanzhi0614/DemoMain1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chuanzhi0614/b.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chuanzhi0614/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chuanzhi0614/test/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
           </folding>
         </state>
       </provider>

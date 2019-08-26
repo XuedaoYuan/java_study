@@ -1711,3 +1711,43 @@ java -jar xxxx.jar
 ​	1、可以在程序的运行过程中操作这些对象
 
 ​	2、解耦
+
+
+
+## 注解 Annotation
+
+```java
+@Override 检测重写
+@Deprecated 表示内容过时
+@SuppressWarnings("all") 压制警告
+```
+
+元注解： 描述注解的注解
+
+```
+@Target 注解能够作用的位置
+@Retention 描述注解被保留的阶段
+@Documented 描述注解是否被抽取到Api文档中
+@Inherited 描述注解是否被继承
+```
+
+## Tomcat
+
+```
+conf/server.xml 配置
+
+```
+
+```xml
+<Host>
+	<Context docBase="xxx/xxx.html" path="/test" />
+</Host>
+```
+
+或则`/Users/cloud/Documents/apache-tomcat-8.5.42/conf/Catalina`下新建`abc.xml`文件， 写入
+
+```xml
+<Context docBase="xxx/xxx.html"/>
+```
+
+也可以达到一样的效果, 访问路径是xml的名称， 比如`localhost:8080/abc/index.html`
